@@ -74,7 +74,7 @@ CREATE TABLE `experiencia` (
 
 LOCK TABLES `experiencia` WRITE;
 /*!40000 ALTER TABLE `experiencia` DISABLE KEYS */;
-INSERT INTO `experiencia` VALUES (1,'Diseñador y jefe de producción.',2020,NULL,'https://d3ugyf2ht6aenh.cloudfront.net/stores/564/790/products/flip_a_we_021-29c0592bb440a01a7216535933316416-1024-1024.jpg','Sumapack');
+INSERT INTO `experiencia` VALUES (1,'Ingeniero Civil y Team Leader.',2020,NULL,'https://d3ugyf2ht6aenh.cloudfront.net/stores/564/790/products/flip_a_we_021-29c0592bb440a01a7216535933316416-1024-1024.jpg','Sumapack');
 /*!40000 ALTER TABLE `experiencia` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -201,7 +201,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'kevin@matsuda.com','$2a$10$BiEbjjvXgO/r0VvQEmZ5XOo4l1m90r3wO5/c6qTcKq0kb5IOL.ZAO');
+INSERT INTO `users` VALUES (1,'ale@giorgis.com','$2a$10$BiEbjjvXgO/r0VvQEmZ5XOo4l1m90r3wO5/c6qTcKq0kb5IOL.ZAO');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 SET @@SESSION.SQL_LOG_BIN = @MYSQLDUMP_TEMP_LOG_BIN;
